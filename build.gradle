@@ -1,0 +1,11 @@
+plugins {
+    id 'java-library'
+}
+
+dependencies {
+}
+
+// In this section you declare where to find the dependencies of your project
+repositories {
+    jcenter()
+}
