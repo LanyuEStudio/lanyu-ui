@@ -11,7 +11,7 @@ public class Iconos {
 	private static int filas = 3;
 	private static int columnas = 5;
 	private static int numeroIconos = filas*columnas;
-	private static String rutaIconos = "/es/lanyu/ui/iconos/Iconos.png";
+	private static String rutaIconos = "Iconos.png";
 	
 	static {
 		BufferedImage aux = null;
