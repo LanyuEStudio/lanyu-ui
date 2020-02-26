@@ -2,10 +2,14 @@ plugins {
     id 'java-library'
 }
 
-dependencies {
-}
+group = 'es.lanyu'
+version = '0.1.1'
+sourceCompatibility = '1.8'
 
 // In this section you declare where to find the dependencies of your project
 repositories {
     jcenter()
+}
+
+dependencies {
 }
