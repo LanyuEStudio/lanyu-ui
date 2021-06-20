@@ -1,15 +1,21 @@
 plugins {
-    id 'java-library'
+  id 'java-library'
 }
 
 group = 'es.lanyu'
-version = '0.1.1'
+version = '1.0.0'
 sourceCompatibility = '1.8'
 
 // In this section you declare where to find the dependencies of your project
 repositories {
-    jcenter()
+  jcenter()
+
+  maven { url 'https://jitpack.io' }
 }
 
 dependencies {
+  // https://github.com/LGoodDatePicker/LGoodDatePicker
+  api 'com.github.lgooddatepicker:LGoodDatePicker:11.2.1'
+  
+  api 'com.github.lanyuestudio:tablelayout-min-gradle:v1'
 }
